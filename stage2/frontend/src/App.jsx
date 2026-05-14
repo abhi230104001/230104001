@@ -67,7 +67,7 @@ const itemsPerPage = 2;
     return weights[item.type] || 0;
   };
 
-  // Filter notifications
+ 
   const filteredData =
     filter === "All"
       ? data
@@ -90,7 +90,7 @@ const paginatedData = sortedData.slice(
         Notification System
       </Typography>
 
-      {/* Filter Buttons */}
+      {}
       <Stack direction="row" spacing={2} sx={{ marginBottom: 3 }}>
         <Button variant="contained" onClick={() => setFilter("All")}>
           All
