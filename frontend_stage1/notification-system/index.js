@@ -63,4 +63,3 @@ sorted.forEach((n, index) => {
   console.log(`Timestamp: ${n.Timestamp}`);
   console.log("---------------------");
 });
-
